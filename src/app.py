@@ -1,8 +1,11 @@
+from dotenv import load_dotenv
+load_dotenv()  # Esto carga las variables definidas en .env
+import os
 import streamlit as st
 from wellness_assistant import WellnessAssistant
-import os
 
-# Obtener la clave API desde una variable de entorno
+
+# Cargar la clave API desde las variables de entorno
 api_key = os.getenv('ANTHROPIC_API_KEY')
 
 if not api_key:
