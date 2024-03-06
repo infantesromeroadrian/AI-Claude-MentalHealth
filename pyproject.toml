@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aiassistantmentalhealth"
+version = "0.1.0"
+description = ""
+authors = ["adrianinfantes <infantesromeroadrian@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<3.12"
+anthropic = "^0.18.1"
+streamlit = "^1.31.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
