@@ -1,7 +1,5 @@
 
 
-export ANTHROPIC_API_KEY=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
-
 # 🧘 Wellness Assistant 🧘
 
 Bienvenido al repositorio del **Wellness Assistant**, un asistente personal impulsado por inteligencia artificial para ofrecerte consejos de bienestar, meditaciones guiadas, y respuestas a tus preguntas sobre salud mental. Utilizamos el poderoso modelo de lenguaje Claude de Anthropic para proporcionarte respuestas empáticas y basadas en un extenso conocimiento.
